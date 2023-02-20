@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "aws": "^0.0.3-2",
+    "cli": "^1.0.1",
+    "configure": "^0.0.1",
+    "confirm": "^0.1.1"
+  }
+}
