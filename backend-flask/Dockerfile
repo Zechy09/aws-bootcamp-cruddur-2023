@@ -1,11 +1,12 @@
 FROM python:3.10-slim-buster
-
+#Inside Container
 WORKDIR /backend-flask
-
+#Outside container -> Iniside Container
 COPY requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
 
 COPY . .
+#Set Environment variables (Env Vars)
 
 ENV FLASK_ENV=development
 
